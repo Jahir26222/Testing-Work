@@ -1,0 +1,141 @@
+/* import React from 'react';
+import './Product.css';
+
+const products = [
+  {
+    id: 1,
+    image: 'https://tse2.mm.bing.net/th?id=OIP.TR6gVZG-S4YxWTyGXxAHiwHaFk&pid=Api&P=0&h=180',
+    name: 'Gulab Jamun',
+    category: 'Sweet',
+    price: 100,
+    quantity: '250g',
+    shelfLife: '4 days',
+    stateOrigin: 'Uttar Pradesh',
+    rating: '5.0 (32 Votes)'
+  },
+  {
+    id: 2,
+    image: 'https://tse2.mm.bing.net/th?id=OIP.TR6gVZG-S4YxWTyGXxAHiwHaFk&pid=Api&P=0&h=180',
+    name: 'Rasgulla',
+    category: 'Sweet',
+    price: 100,
+    quantity: '250g',
+    shelfLife: '5 days',
+    stateOrigin: 'West Bengal',
+    rating: '4.8 (24 Votes)'
+  },
+
+  {
+    id: 2,
+    image: 'https://tse2.mm.bing.net/th?id=OIP.TR6gVZG-S4YxWTyGXxAHiwHaFk&pid=Api&P=0&h=180',
+    name: 'Rasgulla',
+    category: 'Sweet',
+    price: 100,
+    quantity: '250g',
+    shelfLife: '5 days',
+    stateOrigin: 'West Bengal',
+    rating: '4.8 (24 Votes)'
+  },
+
+  {
+    id: 2,
+    image: 'https://tse2.mm.bing.net/th?id=OIP.TR6gVZG-S4YxWTyGXxAHiwHaFk&pid=Api&P=0&h=180',
+    name: 'Rasgulla',
+    category: 'Sweet',
+    price: 100,
+    quantity: '250g',
+    shelfLife: '5 days',
+    stateOrigin: 'West Bengal',
+    rating: '4.8 (24 Votes)'
+  },
+
+  {
+    id: 2,
+    image: 'https://tse2.mm.bing.net/th?id=OIP.TR6gVZG-S4YxWTyGXxAHiwHaFk&pid=Api&P=0&h=180',
+    name: 'Rasgulla',
+    category: 'Sweet',
+    price: 100,
+    quantity: '250g',
+    shelfLife: '5 days',
+    stateOrigin: 'West Bengal',
+    rating: '4.8 (24 Votes)'
+  },
+
+  {
+    id: 2,
+    image: 'https://tse2.mm.bing.net/th?id=OIP.TR6gVZG-S4YxWTyGXxAHiwHaFk&pid=Api&P=0&h=180',
+    name: 'Rasgulla',
+    category: 'Sweet',
+    price: 100,
+    quantity: '250g',
+    shelfLife: '5 days',
+    stateOrigin: 'West Bengal',
+    rating: '4.8 (24 Votes)'
+  },
+
+  {
+    id: 2,
+    image: 'https://tse2.mm.bing.net/th?id=OIP.TR6gVZG-S4YxWTyGXxAHiwHaFk&pid=Api&P=0&h=180',
+    name: 'Rasgulla',
+    category: 'Sweet',
+    price: 100,
+    quantity: '250g',
+    shelfLife: '5 days',
+    stateOrigin: 'West Bengal',
+    rating: '4.8 (24 Votes)'
+  },
+  // Add other products here...
+];
+
+const Product = () => {
+  return (
+    <div className="product-table">
+      <table>
+        <thead>
+          <tr>
+            <th><input type="checkbox" /></th>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Self Life</th>
+            <th>StateOrigin</th>
+            <th>Rating</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {products.map(product => (
+            <tr key={product.id}>
+              <td><input type="checkbox" /></td>
+              <td className="product-details">
+                <img src={product.image} alt={product.name} />
+                <div>
+                  <div className="product-name">{product.name}</div>
+                  <div className="product-category">{product.category}</div>
+                </div>
+              </td>
+              <td>₹{product.price}</td>
+              <td>{product.quantity}</td>
+              <td>{product.shelfLife}</td>
+              <td>{product.stateOrigin}</td>
+              <td>{product.rating}</td>
+              <td>
+                <button className="edit">✏️</button>
+                <button className="delete">🗑️</button>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <div className="pagination">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>...</button>
+        <button>24</button>
+      </div>
+    </div>
+  );
+};
+
+export default Product; */ 

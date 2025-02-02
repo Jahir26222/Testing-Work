@@ -1,0 +1,368 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+.main-box{
+    margin-top: 20px;
+    width: 100wh;
+    height: 100%;
+    padding-bottom: 20px;
+    padding: 0px 25px ;
+    background-color: #ffe0e5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-box .back-btn{
+  display: flex;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  color: #9D0910;
+  font-size: 18px;
+  transition: 0.28s ease-in-out;
+}
+
+.main-box .back-btn:hover{
+  background-color: #9D0910;
+  color: white;
+}
+
+.main-box .top-bar{
+    width: 100wh;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-bar p{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.top-bar .top-right{
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-bar .top-right .btn-export{
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.top-bar .top-right .btn-export:nth-child(1){
+    width: 5rem;
+    background-color: white;
+    border: 1px solid rgb(235, 233, 233);
+    color:#9D0910;
+    font-size: 18px;
+    margin-right: 12px;
+}
+.top-bar .top-right .btn-export:nth-child(2){
+    width: rem;
+    background-color: #9D0910;
+    color:#fff;
+}
+
+.main-box .main-bar{
+    height: 85vh;
+    width: 100%;
+    background-color: #fff;
+    /* position: fixed; */
+}
+
+.main-bar .search-div{
+    width: 100wh;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+    justify-content: start;
+    margin-left: 10px;
+}
+
+.search-div .filter{
+    height: 30px;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #A1A7C4;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+
+
+
+.search-div .filter select , option{
+  color: #4f5158;
+  font-size: 14px;
+  width: 100%;
+ 
+}
+
+
+.custom-dropdown
+{
+  position: relative;
+  width: auto;
+}
+
+
+.custom-dropdown button
+{
+  outline: none;
+  height: 100%;
+  width: 100%;
+  border: none;
+  margin-left: -4px;
+}
+
+.dropdown-btn {
+  width: 100wh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  text-align: left;
+}
+
+
+
+.dropdown-menu {
+  position: absolute;
+  margin-top: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  z-index: 1000;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f0f0f0;
+}
+
+input[type="checkbox"]:checked {
+  accent-color:#dc3545;
+ 
+}
+
+.dropdown-menu input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+
+
+#down{
+  color: #888b99;
+ 
+}
+
+.search{
+    height: 30px;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid #A1A7C4;
+    padding: 5px 10px;
+    border-radius: 5px;
+    gap: 12px;
+    
+}
+
+.search input
+{
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+}
+
+.search input::placeholder{
+    font-size: 15px;
+    color: #A1A7C4;
+}
+
+.search input[type="text"]:focus {
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: #2d2d2e; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            
+  }
+
+
+  .product-list{
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: flex-start;
+
+  }
+
+  .product-list .product-heading{
+    /* width: 80%; */
+    border-bottom: 2px solid #c7c8cb;
+    height: 25px;
+    padding-right: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 12px;
+    position: relative;
+  }
+
+  .product-list .product-heading span{
+    color: #A1A7C4;
+  }
+
+  .product-heading .check-box{
+    width: 14rem;
+    display: flex;
+    gap: 12px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+
+  .product-heading .check-box img{
+    height: 55px;
+    width: 55px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+  }
+  .product-table input[type="checkbox"]:checked {
+    accent-color:#dc3545;
+    height: 20px;
+    width: 20px;
+}
+
+.product-table input[type="checkbox"]{
+  height: 20px;
+  width: 20px;
+}
+.product-table {
+    width: 100%;
+    margin: 20px auto;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #A1A7C4;
+   
+  }
+  
+  th {
+    background-color: transparent;
+    background: transparent;
+    color: #5c5a5a;
+  }
+  
+  .product-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-details img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .product-name {
+    font-weight: bold;
+  }
+  
+  .product-category {
+    color: gray;
+    font-size: 0.9em;
+    text-align: left;
+  }
+  
+  button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button.edit {
+    color: #1e456e;
+    text-decoration: overline;
+    margin-right: 12px;
+  }
+  
+  button.delete {
+    color: #dc3545;
+  }
+  
+ .pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 2px;
+    padding: 5px 10px;
+    border: none;
+    color: #5c5a5a;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #ECF2FF;
+  }
+  

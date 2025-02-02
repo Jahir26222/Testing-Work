@@ -1,0 +1,26 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body, html{
+  height: 100vh;
+  width: 100wh;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+  width: 3px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #E4B8B8;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #9D0910;
+  border-radius: 10px;
+}

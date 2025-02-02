@@ -1,0 +1,101 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffe0e5;
+  padding: 10px 20px;
+  font-family: "Arial", sans-serif;
+  width: 100wh;
+    
+}
+
+.navbar-logo img {
+  max-height: 50px;
+}
+
+#icon{
+  cursor: pointer;
+  width: auto;
+  background-color: transparent;
+}
+.icon-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+}
+
+.icon-box i {
+  font-size: 1.2rem;
+  color: #000;
+  position: relative;
+}
+
+.icon-box .bell {
+  position: absolute;
+  top: -3px;
+  right: 155px;
+  background: #d21d1d;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.avatar {
+  background: #7b1111;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.profile p {
+  margin: 0;
+  font-size: 14px;
+  color: #000;
+}
+
+.profile i {
+  font-size: 16px;
+  color: #000;
+}
+
+ .id-box{
+  height: 90px;
+  width: 170px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: white;
+  position: absolute;
+  right: 20px;
+  top: 4.52rem;
+  transition: 0.2s all;
+  border-radius: 1px;
+  border: 1px solid rgb(224, 224, 224);
+}
+
+.show{
+  display: flex;
+}
+
+.id-box .avatar{
+  margin-left: -18px;
+ 
+}
